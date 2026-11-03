@@ -41,41 +41,78 @@ export type ExperienceItem = {
   tags: string[]
 }
 
+
 export const experience: ExperienceItem[] = [
   {
-    role: 'SEO Specialist',
-    company: '[Company Name]',
-    period: '[Start] — Present',
-    location: '[Remote / City]',
-    summary: '[Describe your current role and the scope of your responsibilities.]',
+    role: 'SEO Team Lead',
+    company: 'Techsa',
+    period: 'Mar 2023 – Present',
+    location: 'Pakistan · On-site',
+    summary:
+      'Leading SEO strategies and organic growth initiatives for businesses across healthcare, eCommerce, local services, and international markets. Specializing in technical SEO, AI-powered search optimization, GEO, and data-driven digital marketing.',
     points: [
-      'Plan and execute technical SEO audits covering crawlability, indexation and Core Web Vitals.',
-      'Build keyword and topic-cluster strategies aligned with search intent.',
-      '[Add a responsibility or verified achievement.]',
+      'Lead SEO strategy, planning, and execution across multiple client websites and industries.',
+      'Conduct technical SEO audits covering crawlability, indexability, canonicalization, structured data, and Core Web Vitals.',
+      'Develop AI SEO and Generative Engine Optimization (GEO) strategies for emerging search experiences.',
+      'Manage local SEO, Google Business Profile optimization, and multi-location SEO campaigns.',
+      'Oversee eCommerce SEO, keyword research, competitor analysis, content optimization, and internal linking.',
+      'Analyze organic performance using Google Search Console, GA4, and technical SEO tools.',
+      'Collaborate with development, content, and marketing teams to implement SEO improvements.',
     ],
-    tags: ['Technical SEO', 'Content Strategy', 'GA4'],
+    tags: [
+      'SEO Leadership',
+      'AI SEO',
+      'GEO',
+      'Technical SEO',
+      'Local SEO',
+      'eCommerce SEO',
+      'GSC',
+      'GA4',
+    ],
   },
   {
-    role: 'Digital Marketing Executive',
-    company: '[Company Name]',
-    period: '[Start] — [End]',
-    location: '[Remote / City]',
-    summary: '[Describe this role and the channels you managed.]',
+    role: 'Search Engine Optimization Specialist',
+    company: 'Claws Custom Boxes',
+    period: 'Jun 2022 – May 2023',
+    location: 'Lahore, Pakistan · On-site · Part-time',
+    summary:
+      'Worked on SEO for a US-focused custom packaging business, supporting eCommerce optimization, organic search visibility, and keyword-driven content strategies.',
     points: [
-      'Managed on-page optimization, metadata and internal linking across key landing pages.',
-      'Reported on organic performance using Google Search Console and analytics dashboards.',
-      '[Add a responsibility or verified achievement.]',
+      'Conducted keyword research targeting custom packaging products and relevant searches in the US market.',
+      'Optimized website content, metadata, headings, and internal linking.',
+      'Worked on eCommerce SEO for product and category pages.',
+      'Supported website architecture and technical SEO improvements.',
+      'Identified search opportunities using competitor research and search intent analysis.',
     ],
-    tags: ['On-Page SEO', 'Search Console', 'Reporting'],
+    tags: [
+      'eCommerce SEO',
+      'Technical SEO',
+      'On-Page SEO',
+      'Keyword Research',
+      'USA Market',
+    ],
   },
   {
-    role: '[Earlier Role]',
-    company: '[Company / Freelance]',
-    period: '[Start] — [End]',
-    location: '[Remote / City]',
-    summary: '[Describe how you started in SEO and digital marketing.]',
-    points: ['[Add a responsibility or verified achievement.]'],
-    tags: ['Keyword Research', 'Link Building'],
+    role: 'Search Engine Optimization Specialist',
+    company: 'Telelinks',
+    period: 'Oct 2022 – Mar 2023',
+    location: 'Lahore, Pakistan · On-site · Contract',
+    summary:
+      'Provided SEO services for a cleaning and moving business targeting Sweden, focusing on local search visibility, website optimization, and relevant service-related keywords.',
+    points: [
+      'Conducted keyword research for cleaning and moving services targeting the Swedish market.',
+      'Worked on website content, metadata, headings, and internal linking.',
+      'Supported local SEO optimization for relevant service areas.',
+      'Identified technical SEO issues and website optimization opportunities.',
+      'Worked with WordPress and on-page search engine optimization.',
+    ],
+    tags: [
+      'Local SEO',
+      'WordPress',
+      'Keyword Research',
+      'On-Page SEO',
+      'Sweden Market',
+    ],
   },
 ]
 
