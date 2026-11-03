@@ -273,24 +273,27 @@ export type Publication = {
   href?: string
 }
 
+
 export const publications: Publication[] = [
   {
-    title: '[Publication Title]',
-    venue: '[Journal / Conference Name]',
-    year: '[Year]',
-    authors: 'Asad Naeem, [Co-authors]',
-    abstract: '[Add a one or two sentence summary of the research and its contribution.]',
-    href: '#',
+    title: 'Why is my Google Business Profile not ranking in Maps?',
+    venue: 'LinkedIn · Local SEO & Google Business Profile',
+    year: '2026',
+    authors: 'Asad Naeem',
+    abstract:
+      'A practical guide exploring why businesses struggle to rank in Google Maps, covering Google Business Profile optimization, customer reviews, local SEO, website optimization, citations, and strategies for improving local search visibility.',
+    href: 'https://www.linkedin.com/pulse/why-my-google-business-profile-ranking-maps-asad-naeem-zmbuf/',
   },
   {
-    title: '[Publication Title]',
-    venue: '[Journal / Conference Name]',
-    year: '[Year]',
-    authors: 'Asad Naeem, [Co-authors]',
-    abstract: '[Add a one or two sentence summary of the research and its contribution.]',
-    href: '#',
+    title: 'SEO Is Dead… Again?',
+    venue: 'LinkedIn · SEO & Digital Marketing',
+    year: '2025',
+    authors: 'Asad Naeem',
+    abstract:
+      'An exploration of how SEO continues to evolve alongside artificial intelligence, changing search behavior, and emerging digital marketing technologies.',
+    href: 'https://www.linkedin.com/posts/asad-naeem-seo-expert_seo-digitalmarketing-searchengineoptimization-activity-7368850087118135296-gUdQ',
   },
-]
+];
 
 export const navLinks = [
   { href: '/#about', label: 'About' },
