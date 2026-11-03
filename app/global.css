@@ -71,6 +71,45 @@ body {
   mask-image: radial-gradient(ellipse at top, black 30%, transparent 75%);
 }
 
+.cursor-spotlight-grid {
+  background-image:
+    linear-gradient(to right, rgb(61 255 143 / 0.14) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(61 255 143 / 0.14) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.has-custom-cursor,
+.has-custom-cursor * {
+  cursor: none !important;
+}
+
+.has-custom-cursor :is(input, textarea, [contenteditable='true']) {
+  cursor: text !important;
+}
+
+.has-custom-cursor :is(button, [role='button'], nav a, a[class*='rounded']) {
+  transition:
+    scale 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.25s ease;
+}
+
+.has-custom-cursor :is(button, [role='button'], nav a, a[class*='rounded']):hover {
+  scale: 1.04;
+  filter: drop-shadow(0 0 10px rgb(61 255 143 / 0.28));
+}
+
+.has-custom-cursor [data-cursor='card'] {
+  transition:
+    scale 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.has-custom-cursor [data-cursor='card']:hover {
+  scale: 1.01;
+}
+
 .text-balance {
   text-wrap: balance;
 }

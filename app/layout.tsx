@@ -6,6 +6,7 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
+import { CursorEffect } from './components/cursor-effect'
 import { baseUrl } from './sitemap'
 import { profile } from './data/portfolio'
 
@@ -82,6 +83,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <CursorEffect />
         <Analytics />
         <SpeedInsights />
       </body>

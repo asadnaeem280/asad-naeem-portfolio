@@ -13,7 +13,7 @@ export function Projects() {
       <div className="grid gap-6 lg:grid-cols-3">
         {caseStudies.map((cs, i) => (
           <Reveal key={`${cs.title}-${i}`} delay={i * 0.08} className="h-full">
-            <article className="group flex h-full flex-col rounded-xl border border-border bg-surface p-6 transition-[border-color,transform,box-shadow] duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_20px_60px_-30px_rgb(61_255_143_/_0.5)]">
+            <article data-cursor="card" className="group flex h-full flex-col rounded-xl border border-border bg-surface p-6 transition-[border-color,transform,box-shadow] duration-300 hover:-translate-y-1 hover:border-accent/50 hover:shadow-[0_20px_60px_-30px_rgb(61_255_143_/_0.5)]">
               <div className="flex items-center justify-between font-mono text-xs">
                 <span className="text-accent">{cs.category}</span>
                 <span className="text-muted">{String(i + 1).padStart(2, '0')}</span>
