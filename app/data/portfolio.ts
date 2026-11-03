@@ -3,11 +3,11 @@
 
 export const profile = {
   name: 'Asad Naeem',
-  role: 'SEO Specialist & Digital Marketing Expert',
-  shortRole: 'SEO Specialist',
+  role: 'AI SEO Specialist & Digital Marketing Strategist',
+  shortRole: 'AI SEO Specialist',
   tagline:
-    'I help brands earn sustainable organic growth through technical SEO, data-driven content strategy and search-first digital marketing.',
-  location: '[Your City, Country]',
+    'I help local businesses, eCommerce brands and companies across industries improve search visibility, adapt to AI-driven search and achieve sustainable organic growth.',
+  location: 'Lahore, Pakistan',
   availability: 'Open to new projects & collaborations',
   email: '[your.email@example.com]',
   resumeUrl: '#',
@@ -20,13 +20,14 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm an SEO specialist focused on the intersection of search engines, user intent and measurable business outcomes. My work spans technical audits, site architecture, on-page optimization, content strategy and analytics.",
-    '[Add a short paragraph about your background, the industries you work with and what makes your approach different.]',
+    'With over 7 years of experience, I specialize in AI-powered SEO, Generative Engine Optimization (GEO), and data-driven digital strategies.',
+    'I help local businesses, eCommerce brands, and companies across multiple industries improve search visibility, adapt to AI-driven search, and achieve sustainable organic growth.',
+    'My expertise includes Technical SEO, AI Search Optimization, Local SEO, eCommerce SEO, Google Business Profile optimization, content strategy, and performance analytics. I combine technical expertise with emerging AI search technologies to develop scalable SEO strategies that deliver measurable business growth.',
   ],
   highlights: [
-    { label: 'Years of experience', value: '[X]+' },
-    { label: 'Projects delivered', value: '[X]+' },
-    { label: 'Industries served', value: '[X]' },
+    { label: 'Years of experience', value: '7+' },
+    { label: 'Projects delivered', value: '100+' },
+    { label: 'Industries served', value: '10+' },
   ],
 }
 

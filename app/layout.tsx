@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   },
   description: profile.tagline,
   keywords: [
+    'AI SEO Specialist',
+    'Generative Engine Optimization',
+    'GEO',
     'SEO Specialist',
     'Technical SEO',
     'Digital Marketing',

@@ -6,7 +6,7 @@ import { useReducedMotion } from 'motion/react'
 type Line = { cmd: string; output: string[] }
 
 const script: Line[] = [
-  { cmd: 'whoami', output: ['Asad Naeem — SEO Specialist & Digital Marketer'] },
+  { cmd: 'whoami', output: ['Asad Naeem — AI SEO Specialist & Digital Marketing Strategist'] },
   {
     cmd: 'seo audit --scope full',
     output: [
