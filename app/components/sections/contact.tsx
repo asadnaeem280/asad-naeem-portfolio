@@ -37,7 +37,7 @@ export function Contact() {
               href={profile.resumeUrl}
               className="rounded-md border border-border px-6 py-3 font-mono text-sm text-foreground transition-colors hover:border-accent/60 hover:text-accent"
             >
-              Download résumé
+              Hire Me on Fiverr
             </a>
           </div>
           <p className="relative mt-8 font-mono text-xs text-muted">
