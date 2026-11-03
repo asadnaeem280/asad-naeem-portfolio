@@ -182,59 +182,87 @@ export type CaseStudy = {
   href?: string
 }
 
+
 export const caseStudies: CaseStudy[] = [
   {
-    title: '[Technical SEO Overhaul]',
-    client: '[Client or Industry]',
-    category: 'Technical SEO',
-    challenge: '[Describe the problem — e.g. indexation issues, slow pages, migration risk.]',
+    title: 'UniVapez — eCommerce SEO Growth',
+    client: 'UniVapez | United Kingdom | Apr–Dec 2023',
+    category: 'eCommerce SEO',
+    challenge:
+      'Improve the organic visibility, website structure, and customer reach of a UK-based online retail business in a competitive search environment.',
     approach: [
-      'Full crawl and log-based technical audit',
-      'Prioritized fix roadmap with dev team',
-      'Structured data and Core Web Vitals improvements',
+      'Conducted keyword research and competitor analysis.',
+      'Optimized website content, metadata, and on-page SEO elements.',
+      'Improved site structure and internal linking.',
+      'Supported authority-building and off-page SEO activities.',
+      'Monitored organic traffic and search performance.',
     ],
-    outcome: '[Summarize the verified outcome of the project.]',
+    outcome:
+      'Reported a 50% increase in organic traffic and a 35% increase in sales within six months, as documented in my LinkedIn project summary.',
     metrics: [
-      { label: 'Organic traffic', value: '[+X%]' },
-      { label: 'Indexed pages', value: '[X]' },
+      { label: 'Organic traffic growth', value: '+50%' },
+      { label: 'Reported sales growth', value: '+35%' },
     ],
-    tags: ['Audit', 'Schema', 'CWV'],
+    tags: [
+      'eCommerce SEO',
+      'On-Page SEO',
+      'Keyword Research',
+      'UK Market',
+    ],
   },
   {
-    title: '[Content & Topic Cluster Strategy]',
-    client: '[Client or Industry]',
-    category: 'Content SEO',
-    challenge: '[Describe the content gap or ranking challenge.]',
+    title: 'Mission Refill — Organic Search Optimization',
+    client: 'Mission Refill | May 2024–Present',
+    category: 'eCommerce SEO',
+    challenge:
+      'Strengthen organic search visibility, improve website optimization, and attract relevant customers through a structured SEO strategy.',
     approach: [
-      'Keyword and SERP intent analysis',
-      'Pillar and cluster content architecture',
-      'Internal linking and on-page optimization',
+      'Conducted keyword research and search intent analysis.',
+      'Implemented on-page SEO and content optimization.',
+      'Reviewed technical SEO and website architecture.',
+      'Supported internal linking and relevant keyword targeting.',
+      'Monitored organic performance and optimization opportunities.',
     ],
-    outcome: '[Summarize the verified outcome of the project.]',
+    outcome:
+      'Managed an ongoing SEO strategy covering keyword research, on-page improvements, technical optimization, and link-building activities.',
     metrics: [
-      { label: 'Keywords in top 10', value: '[X]' },
-      { label: 'Engagement', value: '[+X%]' },
+      { label: 'Project started', value: 'May 2024' },
+      { label: 'Project status', value: 'Ongoing' },
     ],
-    tags: ['Content', 'Keywords', 'Internal links'],
+    tags: [
+      'eCommerce SEO',
+      'Technical SEO',
+      'Content Optimization',
+      'Keyword Research',
+    ],
   },
   {
-    title: '[Local SEO Growth]',
-    client: '[Client or Industry]',
+    title: 'Bin Blasters — Local SEO Strategy',
+    client: 'Bin Blasters | May 2024–Present',
     category: 'Local SEO',
-    challenge: '[Describe the local visibility challenge.]',
+    challenge:
+      'Improve the online visibility of a professional garbage bin cleaning service and attract relevant local search traffic and customer inquiries.',
     approach: [
-      'Google Business Profile optimization',
-      'Citation cleanup and consistency',
-      'Location landing page strategy',
+      'Performed keyword research for local cleaning services.',
+      'Optimized website content, metadata, and on-page elements.',
+      'Developed SEO-focused content and internal linking strategies.',
+      'Supported link-building and search visibility initiatives.',
+      'Tracked SEO performance and identified improvement opportunities.',
     ],
-    outcome: '[Summarize the verified outcome of the project.]',
+    outcome:
+      'Led an ongoing SEO project focused on strengthening local search visibility, organic traffic acquisition, and conversion opportunities.',
     metrics: [
-      { label: 'Map pack visibility', value: '[+X%]' },
-      { label: 'Calls / leads', value: '[X]' },
+      { label: 'Project started', value: 'May 2024' },
+      { label: 'Project status', value: 'Ongoing' },
     ],
-    tags: ['GBP', 'Citations', 'Local'],
+    tags: [
+      'Local SEO',
+      'Technical SEO',
+      'On-Page SEO',
+      'Content Strategy',
+    ],
   },
-]
+];
 
 export type Publication = {
   title: string
