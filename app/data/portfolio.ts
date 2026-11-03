@@ -9,12 +9,12 @@ export const profile = {
     'I help local businesses, eCommerce brands and companies across industries improve search visibility, adapt to AI-driven search and achieve sustainable organic growth.',
   location: 'Lahore, Pakistan',
   availability: 'Open to new projects & collaborations',
-  email: '[your.email@example.com]',
-  resumeUrl: '#',
+  email: 'asadnaeem280@gmail.com',
+  resumeUrl: 'https://www.fiverr.com/asadnaeem961',
   socials: [
-    { label: 'LinkedIn', href: '#' },
+    { label: 'LinkedIn', href: 'https://pk.linkedin.com/in/asad-naeem-seo-expert' },
     { label: 'GitHub', href: 'https://github.com/asadnaeem280' },
-    { label: 'Google Scholar', href: '#' },
+    { label: 'Google Scholar', href: 'https://scholar.google.com/citations?hl=en&user=HKBbx3gAAAAJ' },
   ],
 }
 
