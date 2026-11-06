@@ -13,6 +13,9 @@ import { profile } from './data/portfolio'
 const title = `${profile.name} — ${profile.role}`
 
 export const metadata: Metadata = {
+  verification: {
+  google: 'f5g0nO1El8DF4Ie5PS08A5OL-IatT3Z_h3sIhZqU5r4',
+},
   metadataBase: new URL(baseUrl),
   title: {
     default: title,
